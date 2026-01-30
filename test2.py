@@ -6,7 +6,7 @@ app = Flask(__name__)
 def get_user(user_id):
     user_data ={
         "user-id":user_id,
-        "username":"Arjun",  
+        "username":"Arjun-Bhattarai",  
         "email":"john.doe@example.com"
     }
 
