@@ -8,7 +8,6 @@ queryURL=url+f"?username={user}"
 response=requests.get(queryURL)
 userdata=json.loads(response.text)[0]
 
-#print (response.text) 
 name=userdata["name"]
 email=userdata["email"]
 phone=userdata["phone"]
